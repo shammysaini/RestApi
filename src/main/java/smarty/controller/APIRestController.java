@@ -58,6 +58,12 @@ public class APIRestController {
 
 	}
 	
+	@GetMapping("/fetch/one")
+	public String testing ()
+	{
+		return "testing";
+	}
+	
 	
 
 }
