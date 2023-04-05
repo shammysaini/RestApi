@@ -70,6 +70,12 @@ public class APIRestController {
 		return "hello world";
 	}
 	
+	@GetMapping("/All/one")
+	public String myWorld()
+	{
+		return " my hello world";
+	}
+	
 	
 
 }
