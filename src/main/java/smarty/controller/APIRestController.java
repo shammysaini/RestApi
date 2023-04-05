@@ -64,6 +64,12 @@ public class APIRestController {
 		return "testing";
 	}
 	
+	@GetMapping("/All")
+	public String world()
+	{
+		return "hello world";
+	}
+	
 	
 
 }
