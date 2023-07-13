@@ -67,7 +67,7 @@ public class APIRestController {
 	@GetMapping("/All")
 	public String world()
 	{
-		return "hello world";
+		return "hello shammy how are you ";
 	}
 	
 	@GetMapping("/All/one")
